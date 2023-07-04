@@ -1,0 +1,20 @@
+* {
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+#flower_form-subscribe {
+  background-color: #DAD;
+  border-radius: 15px;
+}
+
+#navbar-color { 
+  background-color: #DAD;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.type-cash {
+  margin-left: 2px;
+  color: #CCC;
+}

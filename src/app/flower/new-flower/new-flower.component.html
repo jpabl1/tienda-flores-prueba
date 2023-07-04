@@ -1,0 +1,49 @@
+<div class="row m-5 rows-cols-1">
+  
+  <div class="col-lg-4">
+    
+    <h3>Nueva flor</h3>
+    
+    <hr>
+    
+    <form [formGroup]="formulario" class="form signin m-auto pt-3 container shadow" (ngSubmit)="onSubmit()" id="flower_form-subscribe">
+      
+      <div class="form-floating mb-3">
+        <input (keyup)="updatePreview()" id="floatingInput" class="form-control" type="text" formControlName="name" placeholder="Nombre de la planta...">
+        <label for="floatingInput">Nombre</label>
+      </div>
+      
+      <div class="form-floating">
+        <textarea (keyup)="updatePreview()" id="floatingTextarea" class="form-control" formControlName="description" placeholder="Escriba la descripción de la planta a vender..."> </textarea>
+        <label for="floatingTextarea">Descripción</label>
+      </div>
+      
+      <div class="form-floating mb-3 mt-3">
+        <input (keyup)="updatePreview()" id="floatingInput" class="form-control" type="text" formControlName="prize" placeholder="Precio de la planta (MXN)...">
+        <label for="floatingInput">Precio (MXN)</label>
+      </div>
+
+      <div class="form-floating">
+        <textarea (keyup)="updatePreview(); separateSpecifications()" id="floatingTextarea" class="form-control" formControlName="specifications" placeholder="Escriba las especificaciones de la planta a vender..."> </textarea>
+        <label for="floatingTextarea">Especificaciones</label>
+      </div>
+      
+      <div class=" mb-5 mt-4">
+        <label for="formFile" class="form-label">Imágenes de referencia. (Máx. 3) La 1ra saldrá como portada. </label>
+        <input (change)="previewImage($event)" class="form-control" type="file" id="formFile" formControlName="image" accept="image/jpeg, image/png" multiple>
+        <!-- <input (change)="uploadImage( $event )" class="form-control" type="file" id="formFile" formControlName="image" accept="image/jpeg, image/png" multiple> -->
+      </div>
+      
+      <button class="btn btn-dark w-100 mb-3" type="submit">AGREGAR</button>
+    
+    </form>
+  
+  </div>
+
+  <div class="col-lg mt-5 mt-lg-0">
+    <h3>Vista previa</h3>
+    <hr>
+    <preview-new-flower [urls]="urls" [preview_name]="preview_name" [preview_description]="preview_description" [preview_prize]="preview_prize" [specifications]="specifications"></preview-new-flower>
+  </div>
+  
+</div>

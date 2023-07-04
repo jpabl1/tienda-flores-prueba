@@ -1,0 +1,32 @@
+<div class="d-flex">
+  <img 
+    (click)="changePic()"
+    (load)="onLoad()" 
+    class="rounded-4 w-50" 
+    [src]="urls[count]" 
+    alt="Imagen de referencia" 
+    [ngStyle]="{ display: hasLoaded ? '' : 'none' }"
+  >
+
+  <img 
+    class="rounded-4 w-50"
+    src="https://firebasestorage.googleapis.com/v0/b/app-flores-001.appspot.com/o/img%2Fassets%2Fno-image.jpg?alt=media&token=0d8c71e0-7f47-4b9e-aace-3176a7aba10e" 
+    *ngIf="!hasLoaded"
+  >
+
+  <div class="container">
+    <h2 style="font-weight: bold;"> {{ preview_name }} </h2>
+    <h2 style="font-size: 28px;" class="mb-3"> {{ preview_description }} </h2>
+    <h2 style="font-size: 20px; font-weight: bold;"> Especificaciones: </h2>
+    <ul>
+      <li *ngFor="let specification of specifications"> {{ specification }} </li>
+    </ul>
+    <div class="d-flex">
+      <h2 style="font-size: 20px;"> {{ '$ ' + preview_prize }} </h2>
+      <h2 style="font-size: 12px;">  .00 </h2>
+      <h2 style="font-size: 20px; color: #999"> {{' MXN'}} </h2>
+    </div>
+    <button class="btn btn-primary">Añadir al carrito de compras <img src="assets/icons/cart.svg" alt=""></button>
+  </div>
+
+</div>
