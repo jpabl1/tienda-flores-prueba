@@ -5,7 +5,7 @@
 ![Angular](https://img.shields.io/badge/Angular-black?logo=Angular)
 ![Firebase](https://img.shields.io/badge/firebase-black?logo=Firebase)
 
-En este proyecto usé Firebase como base de datos. En el principio se verá un catálogo que mostrará todas las flores que están en la base de datos. Después si le da "click" en ventas se le dará la interfaz para agregar una nueva planta, la cual si entra otra vez al catalogo se agregará con todas las flores.
+En este proyecto usé Firebase. En el principio se verá un catálogo que mostrará todas las flores que están en la base de datos, incluyendo imágenes de sus respectivas flores. Después si le da "click" en ventas se le dará la interfaz para agregar una nueva planta, la cual si entra otra vez al catalogo se agregará con todas las flores.
 
 ## Descripción generada por el Angular
 
