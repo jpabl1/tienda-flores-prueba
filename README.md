@@ -7,6 +7,8 @@
 
 En este proyecto usé Firebase. En el principio se verá un catálogo que mostrará todas las flores que están en la base de datos, incluyendo imágenes de sus respectivas flores. Después si le da "click" en ventas se le dará la interfaz para agregar una nueva planta, la cual si entra otra vez al catalogo se agregará con todas las flores.
 
+![Captura de referencia](https://github.com/jpabl1/tienda-flores-prueba/captura-tienda-flores-prueba.jpg?raw=true)
+
 ## Descripción generada por el Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
