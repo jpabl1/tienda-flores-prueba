@@ -1,5 +1,11 @@
 # TiendaFlores
 
+## Descripción del proyecto
+
+En este proyecto usé Firebase como base de datos. En el principio se verá un catálogo que mostrará todas las flores que están en la base de datos. Después si le da "click" en ventas se le dará la interfaz para agregar uan nueva planta, la cual si entra otra vez al catalogo se agregará con todas las flores.
+
+## Descripción generada por el Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
 ## Development server
