@@ -1,19 +1,21 @@
-# TiendaFlores
+# Flower Shop
 
-## Descripción del proyecto
+## Project Description
 
 ![Angular](https://img.shields.io/badge/Angular-black?logo=Angular)
 ![Firebase](https://img.shields.io/badge/firebase-black?logo=Firebase)
 
-En este proyecto usé Firebase. Al inicio se verá un catálogo que mostrará todas las flores que están en la base de datos, incluyendo imágenes de sus respectivas flores. Después si le da "click" en ventas se le dará la interfaz para agregar una nueva planta, la cual si entra otra vez al catalogo se agregará con todas las flores.
+This project was created using Angular and Firebase.
+In the Home Page you can see a catalog of the plants saved in the database, each plan contains its own image, price and name.
+To add a new plant you can go to the Venta Page, where you'll be able to add a new plant uploading an image and some another data relate to the plan type, after save the plan, this one will appear in the Home Page catalog.
 
-### Muestra las plantas
+### Plants catalog
 ![Captura de referencia 1](https://github.com/jpabl1/tienda-flores-prueba/blob/main/captura-tienda-flores-prueba.png?raw=true)
 
-### Agregando una nueva las plantas
+### Adding a new plant
 ![Captura de referencia 2](https://github.com/jpabl1/tienda-flores-prueba/blob/main/captura-tienda-flores-prueba2.png?raw=true)
 
-## Descripción generada por el Angular
+## How to run the project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
@@ -40,4 +42,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# tienda-flores-prueba
